@@ -134,6 +134,7 @@
                             </div>
                             <div class="actions">
                                 <ul>
+                                    <li style="background-color: gray;"><span class="js-btn-next" title="Geri" onclick="geri();">Geri</span></li>
                                     <li><span class="js-btn-next" title="Devam Et" onclick="hide(1); counter();">BAŞLA!</span></li>
                                 </ul>
                             </div>
