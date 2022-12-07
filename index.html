@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>RequSoft</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="clearfix"></div>
+    <div class="wrapper" style="zoom: 0.8;">
+        <div class="wizard-content-1 pos-flex clearfix">
+            <div class="steps d-inline-block clearfix">
+                <span class="bg-shape"></span>
+                <ul class="tablist multisteps-form__progress">
+                    <li class="multisteps-form__progress-btn js-active current">
+                        <div class="step-btn-icon-text">
+                            <span>1</span>
+                            <div class="step-btn-icon float-left position-relative">
+                                <img src="assets/img/bt1.png" alt="">
+                            </div>
+                            <div class="step-btn-text">
+                                <h2 class="text-uppercase">Merhaba</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="multisteps-form__progress-btn">
+                        <div class="step-btn-icon-text">
+                            <span>2</span>
+                            <div class="step-btn-icon float-left position-relative">
+                                <img class="fix-image" src="assets/img/bt2.png" alt="">
+                            </div>
+                            <div class="step-btn-text">
+                                <h2 class="text-uppercase">Kurallar</h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="multisteps-form__progress-btn">
+                        <div class="step-btn-icon-text">
+                            <span>3</span>
+                            <div class="step-btn-icon float-left position-relative">
+                                <img class="fix-image-2" src="assets/img/bt3.png" alt="">
+                            </div>
+                            <div class="step-btn-text">
+                                <h2 class="text-uppercase">Tamamla</h2>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="step-inner-content clearfix position-relative">
+                <span class="bg-shape"></span>
+                <div class="form-area position-relative">
+                    <div class="multisteps-form__panel js-active" data-animation="scaleIn">
+                        <div class="wizard-forms position-relative">
+                            <span class="step-no position-absolute">1. Adım</span>
+                            <div class="wizard-inner-box">
+                                <div class="inner-title text-center">
+                                    <h2>Sevgili "Kullanıcı" Uygulamaya Hoşgeldin!</h2>
+                                    <br />
+                                    <p>Türkçe öğrenirken eğlenceli bir yolculuğa çıkmaya ne dersin ?</p>
+                                    <br />
+                                    <p>Bu yolculuğa hazırsan "Devam Et" butonuna tıkla</p>
+                                </div>
+                                <div id="need-job-slide-id" class="need-job-slide owl-carousel">
+
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <ul>
+                                    <li><span class="js-btn-next" title="Devam Et" onclick="hide(1)">Devam Et</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="bottom-vector position-absolute">
+                            <img src="assets/img/sd1.png" alt="">
+                        </div>
+                    </div>
+                    <!-- step 1 -->
+                    <div class="multisteps-form__panel" data-animation="scaleIn">
+                        <div class="wizard-forms form-step-2">
+                            <span class="step-no position-absolute">2. Adım</span>
+                            <div class="wizard-inner-box">
+                                <div class="inner-title text-center">
+                                    <h2>Uygulamanın Kuralları</h2>
+                                    <h4>Yolculuğa çıkmadan önce bilmen gereken bazı kurallar olacak. Bunları sana anlatacağım</h4>
+                                </div>
+                            </div>
+                            <div class="details-form-area">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <p>1. Uygulamada toplamda 12 etkinlik bulunmaktadır.</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p>2. İlk etkinlikten başlayarak sırayla etkinlikler yapılır.</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p>3 Her hafta 2 etkinlik olur.</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p>4. 6 hafta boyunca etkinlikler devam eder</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p>5. Bir etkinlik tamamlanmadan diğer etkinlik başlamaz</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p>6. Etkinliklerin sonunda en yüksek puan alan kişi rozet kazanır</p>
+                                    </div>
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <ul>
+                                    <li><button type="submit" name="submit"><span class="js-btn-next" title="Devam Et" onclick="hide(2)">Devam Et </span></button></li>
+                                </ul>
+                            </div>
+                            <div class="bottom-vector position-absolute">
+                                <img src="assets/img/sd1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- step 2 -->
+                    <div class="multisteps-form__panel" data-animation="scaleIn">
+                        <div class="wizard-forms form-step-3">
+                            <span class="step-no position-absolute">3. Adım</span>
+                            <div class="wizard-inner-box">
+                                <div class="thank-content text-center">
+                                    <div class="thank-img">
+                                        <img src="assets/img/kopke.png" alt="" style="width:25%;">
+                                    </div>
+                                    <div class="thank-text">
+                                        <h2>Her şey hazır!</h2>
+                                        <p>Merhaba, benim adım GOFRET! 12 etkinlik boyunca ben hep senin yanında olacağım ve kuralları hatırlatacağım. Hazırsan "Bitir" butonuna basıp hedefleri görebilirsin.</p>
+                                    </div>
+                                    <div class="thank-btn text-uppercase">
+                                        <a href="default.aspx">Bİtİr</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- step 3 -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function hide(id) {
+            var oldScreen = id - 1;
+            const screens = document.getElementsByClassName("multisteps-form__panel");
+            const screenTab = document.getElementsByClassName("multisteps-form__progress-btn");
+
+            screens[oldScreen].classList.remove("js-active");
+            screens[id].classList.add("js-active");
+
+            screenTab[oldScreen].classList.remove("js-active");
+            screenTab[oldScreen].classList.remove("current");
+            screenTab[id].classList.add("js-active");
+            screenTab[id].classList.add("current");
+        }
+    </script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        $("#customFile").change(function () {
+            filename = this.files[0].name
+        });
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+        $('.datepicker').datepicker({
+            clearBtn: true,
+            format: "dd/mm/yyyy"
+        });
+    </script>
+</body>
+
+</html>

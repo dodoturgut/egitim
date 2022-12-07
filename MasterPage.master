@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <title>RequSoft</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <style>
+        body {
+            background: linear-gradient(90deg, #a89ec1 21px, transparent 1%) center, linear-gradient(#a89ec1 21px, transparent 1%) center, #ffffff;
+            background-size: 23px 23px;
+        }
+
+        .loginBtn {
+            padding: 10px;
+            height: 50px;
+            width: 120px;
+            background-color: #fff1f1;
+            float: right;
+            /* position: sticky; */
+            border-radius: 12px;
+            /* right: 0; */
+            display: inline-flex;
+            /* left: 0; */
+            border-style: dotted;
+            box-shadow: -3px 4px 11px 2px black;
+        }
+
+        .loginName {
+            width: 65%;
+            height: auto;
+            /* float: left; */
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 20%;
+        }
+
+        .loginImg {
+            width: 35%;
+            /* float: left; */
+            height: auto;
+        }
+
+        .wrapper{
+             zoom:0.8;
+        }
+    </style>
+    <form id="form1" runat="server">
+        <div class="loginBtn">
+            <div class="loginName">Kullanıcı</div>
+            <div class="loginImg">
+                <img src="assets/img/kopkeSmile.png" />
+            </div>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
