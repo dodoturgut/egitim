@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33027.164
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "egitim", ".", "{806E1424-9326-4A2D-892D-54A5571A6DE0}"
 	ProjectSection(WebsiteProperties) = preProject
@@ -36,6 +36,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EEF1D425-C8FD-4FE9-97A1-BC52A2DC4510}
+		SolutionGuid = {500FB43A-059F-4F26-AF67-B34727AD09DF}
 	EndGlobalSection
 EndGlobal
