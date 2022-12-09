@@ -3,25 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "egitim", ".", "{806E1424-9326-4A2D-892D-54A5571A6DE0}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "egitimProje", "egitimProje\", "{B4CE163B-200D-4B35-AEDD-59C12790CA10}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_53469"
-		Debug.AspNetCompiler.PhysicalPath = "..\egitim\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53469\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54456"
+		Debug.AspNetCompiler.PhysicalPath = "egitimProje\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54456\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_53469"
-		Release.AspNetCompiler.PhysicalPath = "..\egitim\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53469\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54456"
+		Release.AspNetCompiler.PhysicalPath = "egitimProje\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54456\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "53469"
-		SlnRelativePath = "..\egitim\"
+		VWDPort = "54456"
+		SlnRelativePath = "egitimProje\"
 	EndProjectSection
 EndProject
 Global
@@ -29,13 +29,13 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{806E1424-9326-4A2D-892D-54A5571A6DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{806E1424-9326-4A2D-892D-54A5571A6DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CE163B-200D-4B35-AEDD-59C12790CA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CE163B-200D-4B35-AEDD-59C12790CA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EEF1D425-C8FD-4FE9-97A1-BC52A2DC4510}
+		SolutionGuid = {6538B8CC-BF45-4300-B28A-E7EEDBD4BA17}
 	EndGlobalSection
 EndGlobal
