@@ -181,10 +181,8 @@
                                 </div>
                             </div>
                             <div class="actions">
-                                <ul>
-                                    <li>
-                                        <button type="submit" name="submit"><span class="js-btn-next" title="Bitir">Bitir</span></button>
-                                    </li>
+                                  <ul>
+                                    <asp:Button runat="server" ID="sbmt" type="submit" name="submit" OnClick="sbmt_Click" Text="Bitir" Style="color: #fff; height: 74px; width: 210px; font-size: 24px; font-weight: 500; cursor: pointer; text-align: center; line-height: 74px; border-radius: 50px; display: inline-block; background-color: #7650e0; border-style: unset;"></asp:Button>
                                 </ul>
                             </div>
                         </div>

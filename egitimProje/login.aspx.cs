@@ -17,12 +17,16 @@ public partial class login : System.Web.UI.Page
     protected void btnLogin_Click(object sender, EventArgs e)
     {
         baglanti.Open();
-        MySqlCommand komut = new MySqlCommand("SELECT name FROM egitim WHERE phone='" + txtPhone.Text + "' AND psw='" + txtPsw.Text + "'", baglanti);
+        MySqlCommand komut = new MySqlCommand("SELECT NameSurname FROM egitim WHERE phone='" + txtPhone.Text + "' AND password='" + txtPsw.Text + "'", baglanti);
+        MySqlCommand komut2 = new MySqlCommand("SELECT userId FROM egitim WHERE phone='" + txtPhone.Text + "' AND password='" + txtPsw.Text + "'", baglanti);
         komut.Connection = baglanti;
+        komut2.Connection = baglanti;
         try
         {
             string username = komut.ExecuteScalar().ToString();
+            string userId = komut2.ExecuteScalar().ToString();
             Session["ogrenci"] = username;
+            Session["userId"] = userId; 
             baglanti.Close();
             Response.Redirect("Default.aspx");
         }

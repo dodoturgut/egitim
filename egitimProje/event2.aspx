@@ -190,20 +190,20 @@
                             <div class="details-form-area">
                                 <div class="row" style="display: grid; position: absolute; left: 0; right: 10%; place-content: center;" id="sorubir">
                                     <div class="kelimeBox">
-                                        <asp:Button runat="server" ID="btn1" CssClass="boxBtn" Text="Kazanç" OnClientClick="return false"/>
-                                        <asp:Button runat="server" ID="btn2" CssClass="boxBtn" Text="Gider" OnClientClick="return false"/>
+                                        <asp:Button runat="server" ID="btn1" CssClass="boxBtn" Text="Kazanç" OnClientClick="return false" />
+                                        <asp:Button runat="server" ID="btn2" CssClass="boxBtn" Text="Gider" OnClientClick="return false" />
                                         <asp:Button runat="server" ID="btn3" CssClass="boxBtn" Text="Harcama" OnClientClick="return false" />
-                                        <asp:Button runat="server" ID="btn4" CssClass="boxBtn" Text="Tüketim"  OnClientClick="return false"/>
-                                        <asp:Button runat="server" ID="btn5" CssClass="boxBtn" Text="Birikim"  OnClientClick="return false"/>
+                                        <asp:Button runat="server" ID="btn4" CssClass="boxBtn" Text="Tüketim" OnClientClick="return false" />
+                                        <asp:Button runat="server" ID="btn5" CssClass="boxBtn" Text="Birikim" OnClientClick="return false" />
                                     </div>
                                 </div>
                                 <div class="row" style="display: none; position: absolute; left: 0; right: 10%; place-content: center;" id="soruiki">
                                     <div class="kelimeBox">
-                                        <asp:Button runat="server" ID="btn11" CssClass="boxBtn" Text="Soru1" OnClientClick="return false"/>
-                                        <asp:Button runat="server" ID="btn22" CssClass="boxBtn" Text="Soru2" OnClientClick="return false"/>
+                                        <asp:Button runat="server" ID="btn11" CssClass="boxBtn" Text="Soru1" OnClientClick="return false" />
+                                        <asp:Button runat="server" ID="btn22" CssClass="boxBtn" Text="Soru2" OnClientClick="return false" />
                                         <asp:Button runat="server" ID="btn33" CssClass="boxBtn" Text="Soru3" OnClientClick="return false" />
-                                        <asp:Button runat="server" ID="btn44" CssClass="boxBtn" Text="Soru4"  OnClientClick="return false"/>
-                                        <asp:Button runat="server" ID="btn55" CssClass="boxBtn" Text="Soru5"  OnClientClick="return false"/>
+                                        <asp:Button runat="server" ID="btn44" CssClass="boxBtn" Text="Soru4" OnClientClick="return false" />
+                                        <asp:Button runat="server" ID="btn55" CssClass="boxBtn" Text="Soru5" OnClientClick="return false" />
                                     </div>
                                 </div>
                             </div>
@@ -214,6 +214,10 @@
             </div>
         </div>
     </div>
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
+    <script>
+        var sesion_values = '<%=Session["userId"].ToString()%>';
+    </script>
     <script>
         const sorubir = document.getElementById("sorubir");
         const soruiki = document.getElementById("soruiki");
@@ -224,7 +228,6 @@
         const buttonPressed = e => {
             if (e.target.value == "Kazanç") {
                 e.target.classList.toggle("trueAnswer");
-
                 window.setTimeout(() => {
 
                     sorubir.style.display = "none";
@@ -232,23 +235,23 @@
                 }, 2000);
             }
             else {
-            //    for (var x = 0; x < allInputs.length; x++)
-            //        if (allInputs[x].value == "Kazanç")
-            //            allInputs[x].classList.toggle("trueAnswer");
                 e.target.classList.toggle("falseAnswer");
-
                 window.setTimeout(() => {
 
                     sorubir.style.display = "none";
                     soruiki.style.display = "grid";
                 }, 2000);
-            } 
+            }
+            cevapJS(e.target.value, "Kazanç", "1")
         }
 
         for (let button of buttons) {
             button.addEventListener("click", buttonPressed);
         }
 
+        function cevapJS(verilenCevap, dogruCevap, soruId) {
+            PageMethods.cevap(verilenCevap, dogruCevap, soruId, sesion_values);
+        }
     </script>
     <script>
         function hide(id) {
