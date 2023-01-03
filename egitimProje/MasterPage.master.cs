@@ -9,6 +9,13 @@ public partial class MasterPage : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        lblName.Text = Session["ogrenci"].ToString();
+        try
+        {
+            lblName.Text = Session["ogrenci"].ToString();
+        }
+        catch
+        {
+            Response.Redirect("login.aspx");
+        }
     }
 }

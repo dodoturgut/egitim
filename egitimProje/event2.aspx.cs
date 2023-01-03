@@ -10,12 +10,12 @@ using System.Data;
 
 public partial class event2 : System.Web.UI.Page
 {
-    MySqlConnection baglanti = new MySqlConnection("Server=localhost;Database=u0983472_db682;Uid=u0983472_user682;Pwd=r8Z@4hKbq7OA=1@:;");
+    MySqlConnection baglanti = new MySqlConnection("Server=localhost;Database=u1019084_db407;Uid=u1019084_user407;Pwd=s@iCQ1vH3:5-3.Oe;");
    
     [WebMethod]
     public static void cevap(string verilenCevap, string dogruCevap, string questionNum,string userId)
     {
-        string _connStr = "Server=localhost;Database=u0983472_db682;Uid=u0983472_user682;Pwd=r8Z@4hKbq7OA=1@:;";
+        string _connStr = "Server=localhost;Database=u1019084_db407;Uid=u1019084_user407;Pwd=s@iCQ1vH3:5-3.Oe;";
         string _query = "INSERT INTO answers2 (userId,eventId,questionNum,givenAnswer,trueAnswer) values (@userId,@eventId,@questionNum,@givenAnswer,@trueAnswer)";
         using (MySqlConnection conn = new MySqlConnection(_connStr))
         {

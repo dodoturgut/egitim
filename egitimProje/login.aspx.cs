@@ -1,15 +1,14 @@
-﻿using MySql.Data;
-using MySql.Data.MySqlClient;
+﻿using MySql.Data.MySqlClient;
 using System;
+using System.Web;
 using System.Activities.Statements;
 using System.Data;
 using System.EnterpriseServices.CompensatingResourceManager;
-using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 
 public partial class login : System.Web.UI.Page
 {
-    MySqlConnection baglanti = new MySqlConnection("Server=localhost;Database=u0983472_db682;Uid=u0983472_user682;Pwd=r8Z@4hKbq7OA=1@:;");
+    MySqlConnection baglanti = new MySqlConnection("Server=localhost;Database=u1019084_db407;Uid=u1019084_user407;Pwd=s@iCQ1vH3:5-3.Oe;");
     protected void Page_Load(object sender, EventArgs e)
     {
 
