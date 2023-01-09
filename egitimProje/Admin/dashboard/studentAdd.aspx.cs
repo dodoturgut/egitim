@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Net;
-using System.Net.Mail;
 using System.Web;
 using System.Web.Services;
 using System.Web.UI;
@@ -19,7 +18,7 @@ public partial class Admin_dashboard_studentAdd : System.Web.UI.Page
         Random rnd = new Random();
         int userID = rnd.Next(99999, 999999);
 
-        var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;!@<>:";
+        var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
         var stringChars = new char[6];
         var random = new Random();
 
@@ -58,23 +57,6 @@ public partial class Admin_dashboard_studentAdd : System.Web.UI.Page
         ekle2.ExecuteNonQuery();
         baglanti.Close();
 
-        mailGonder(mail.Text, finalString);
         Response.Redirect(Request.RawUrl);
-    }
-
-    private void mailGonder(string email,string finalString)
-    {
-        MailMessage eposta = new MailMessage();
-        SmtpClient smtp = new SmtpClient();
-        eposta.From = new MailAddress("info@kelimeyolu.com", "Kelime Yolu");
-        eposta.IsBodyHtml = true;
-        eposta.To.Add(email);
-        eposta.Subject = "Kelime Yolu Hesap Kaydınız Gerçekelştirildi.";
-        eposta.Body = "Tebrikler! Kelime Yolu hesap kaydınız gerçekleştirildi. <br> Giriş Bilgileriniz : <br> <ul><li>Kullanıcı Adı : " + phone.Text + "</li><li>Şifre: " + finalString + "</li></ul>";
-        smtp.Credentials = new System.Net.NetworkCredential("info@kelimeyolu.com", "k6vi76:xDM_OK_4@");
-        smtp.Port = 587;
-        smtp.EnableSsl = false;
-        smtp.Host = "mail.kurumsaleposta.com";
-        smtp.Send(eposta);
     }
 }

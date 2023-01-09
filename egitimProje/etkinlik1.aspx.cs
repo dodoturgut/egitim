@@ -14,7 +14,6 @@ public partial class etkinlik1 : System.Web.UI.Page
     MySqlConnection baglanti2 = new MySqlConnection("Server=localhost;Database=u1019084_db407;Uid=u1019084_user407;Pwd=s@iCQ1vH3:5-3.Oe;");
     protected void Page_Load(object sender, EventArgs e)
     {
-
     }
 
     protected void sbmt_Click(object sender, EventArgs e)

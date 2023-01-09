@@ -157,66 +157,93 @@
                             <div class="details-form-area">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-6 col-sm-6">
-                                        <div class="soruBox" id="drag1" draggable="true" ondragstart="drag(event)">
-                                            <h4>Baharat 
+                                        <div class="soruBox" id="drag1" draggable="false" ondragstart="drag(event)">
+                                            <h4>Baharattır
+
+ 
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag2" draggable="true" ondragstart="drag(event)">
-                                            <h4>Haberci 
+                                        <div class="soruBox" id="drag2" draggable="false" ondragstart="drag(event)">
+                                            <h4>Habercisidir
+
 
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag3" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag3" draggable="false" ondragstart="drag(event)">
                                             <h4>Solunum
+
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag4" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag4" draggable="false" ondragstart="drag(event)">
                                             <h4>Yaygın
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag5" draggable="true" ondragstart="drag(event)">
-                                            <h4>Öksürük 
+                                        <div class="soruBox" id="drag5" draggable="false" ondragstart="drag(event)">
+                                            <h4>Öksürüğe 
+
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag11" draggable="true" ondragstart="drag(event)">
-                                            <h4>Çare
+                                        <div class="soruBox" id="drag11" draggable="false" ondragstart="drag(event)">
+                                            <h4>Belirtiler
+
+
+                                            </h4>
+                                        </div>
+                                        <div class="soruBox" id="drag199" draggable="false" ondragstart="drag(event)">
+                                            <h4>Çorbadır
+
 
 
                                             </h4>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-sm-6">
-                                        <div class="soruBox" id="drag6" draggable="true" ondragstart="drag(event)">
-                                            <h4>Belirti
+                                        <div class="soruBox" id="drag6" draggable="false" ondragstart="drag(event)">
+                                            <h4>Kurutabilirsiniz
+
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag7" draggable="true" ondragstart="drag(event)">
-                                            <h4>Kurutmak 
-
-                                            </h4>
-                                        </div>
-                                        <div class="soruBox" id="drag8" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag7" draggable="false" ondragstart="drag(event)">
                                             <h4>Delik 
 
-                                            </h4>
-                                        </div>
-                                        <div class="soruBox" id="drag9" draggable="true" ondragstart="drag(event)">
-                                            <h4>Hapşırmak 
+ 
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag10" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag8" draggable="false" ondragstart="drag(event)">
+                                            <h4>Hapşırık
+
+
+                                            </h4>
+                                        </div>
+                                        <div class="soruBox" id="drag9" draggable="false" ondragstart="drag(event)">
                                             <h4>Kas 
 
+
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag12" draggable="true" ondragstart="drag(event)">
-                                            <h4>Boşaltı 
+                                        <div class="soruBox" id="drag10" draggable="false" ondragstart="drag(event)">
+                                            <h4>Çaresidir
+
+                                            </h4>
+                                        </div>
+                                        <div class="soruBox" id="drag12" draggable="false" ondragstart="drag(event)">
+                                            <h4>Boşaltım
+
+ 
+
+
+                                            </h4>
+                                        </div>
+                                        <div class="soruBox" id="drag122" draggable="false" ondragstart="drag(event)">
+                                            <h4>Yakabilirsiniz   
+
+ 
 
 
                                             </h4>
@@ -241,29 +268,127 @@
                                         <h4>Zencefil ve limon: </h4>
                                         <h4>Asya ve Hint mutfağında oldukça bilinen bir
                                         </h4>
-                                        <div id="hidden1" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden1" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>olan zencefil; et 
 yemeklerinde, çorba ve soslarda 
                                         </h4>
-                                        <div id="hidden2" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden2" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>. kullanılır. Zencefil bitkisinin kökünü hem taze 
 tüketebilirsiniz hem de 
                                         </h4>
-                                        <div id="hidden3" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden3" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>tozunu kullanabilirsiniz. İsterseniz zencefilin çayını da 
 demleyebilirsiniz. Günde birkaç kere 
                                         </h4>
-                                        <div id="hidden4" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden4" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>, yüksek ateş ve 
                                         </h4>
-                                        <div id="hidden5" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden5" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>. ağrısı gibi 
                                         </h4>
-                                        <div id="hidden6" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden6" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>. grip 
 hastalığının 
                                         </h4>
-                                        <div id="hidden7" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden7" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>dir/dır. Böyle durumlarda zencefil ve limon ile hazırlayacağınız çay,
 ateşinizi düşürür ve ağrılarınızı azaltır
                                         </h4>
@@ -276,15 +401,57 @@ ateşinizi düşürür ve ağrılarınızı azaltır
                                     <div class="textBox" style="width: 100%; display: contents;">
                                         <h4>Siyah turp ve bal: </h4>
                                         <h4>Siyah turp ve bal, alternatif tıpta </h4>
-                                        <div id="hidden8" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden8" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>sistemi hastalıkları için doğal 
 bir ilaçtır. Kışın siyah turp ile bal tüketmek hastalıklardan kurtarabilir. Özellikle</h4>
-                                        <div id="hidden9" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden9" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>karşı
 etkilidir. Ayrıca terlememizi sağlayarak vücudumuzdan toksinleri atmamızı sağlar. Hem de bu 
 doğal ilacı hazırlamak çok kolay! Önce güzelce yıkadığımız turpun tepesini kesin ve küçük bir 
 delik açın. Daha sonra bu </h4>
-                                        <div id="hidden10" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
+                                        <asp:DropDownList runat="server" ID="hidden10" CssClass="form-control divKutu">
+                                            <asp:ListItem>Baharattır</asp:ListItem>
+                                            <asp:ListItem>Habercisidir</asp:ListItem>
+                                            <asp:ListItem>Solunum</asp:ListItem>
+                                            <asp:ListItem>Yaygın</asp:ListItem>
+                                            <asp:ListItem>Öksürüğe</asp:ListItem>
+                                            <asp:ListItem>Belirtiler</asp:ListItem>
+                                            <asp:ListItem>Kurutabilirsiniz</asp:ListItem>
+                                            <asp:ListItem>Delik</asp:ListItem>
+                                            <asp:ListItem>Hapşırık</asp:ListItem>
+                                            <asp:ListItem>Kas</asp:ListItem>
+                                            <asp:ListItem>Çaresidir</asp:ListItem>
+                                            <asp:ListItem>Boşaltım</asp:ListItem>
+                                            <asp:ListItem>Yakabilirsiniz</asp:ListItem>
+                                        </asp:DropDownList>
                                         <h4>bal dökün. 12 saat bekledikten sonra suyunu için. Hepsi bu 
 kadar!</h4>
                                     </div>

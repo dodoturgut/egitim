@@ -12,6 +12,13 @@
             padding: 10px;
             width: 100%;
             height: 50px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .btnActive {
+            background-color: #35cf35;
+            color: white;
         }
 
         .counter {
@@ -157,97 +164,97 @@
                             <div class="details-form-area">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-6 col-sm-6">
-                                        <div class="soruBox" id="drag1" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag1" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Nitelik
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag2" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag2" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Mezun 
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag3" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag3" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Görünüş</h4>
                                         </div>
-                                        <div class="soruBox" id="drag4" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag4" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Görev
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag5" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag5" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Yaşlı
                                             </h4>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-sm-6">
-                                        <div class="soruBox" id="drag6" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag6" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Vazife
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag7" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag7" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Tecrübe
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag8" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag8" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>İzin
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag9" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag9" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Dolgun ücret
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag10" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag10" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Meslek
                                             </h4>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-sm-6">
-                                        <div class="soruBox" id="drag11" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag11" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Fırsat
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag12" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag12" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Yarı zamanlı
 
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag13" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag13" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Deneyim
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag14" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag14" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Mesai saati
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag15" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag15" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Asgari ücret 
 
                                             </h4>
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-sm-6">
-                                        <div class="soruBox" id="drag16" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag16" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Maaş
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag17" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag17" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>İkramiye
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag18" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag18" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Tam zamanlı 
 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag19" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag19" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Kişilik 
                                             </h4>
                                         </div>
-                                        <div class="soruBox" id="drag20" draggable="true" ondragstart="drag(event)">
+                                        <div class="soruBox" id="drag20" draggable="false" ondragstart="drag(event)" onclick="clickButton(this.id)">
                                             <h4>Güçlü
                                             </h4>
                                         </div>
@@ -256,17 +263,17 @@
                                 <br />
                                 <br />
                                 <br />
-                                <asp:HiddenField runat="server" ID="lblText" Value="sa" />
-                                <div class="row">
+                                <asp:HiddenField runat="server" ID="lblText" Value="" />
+                                <%--<div class="row">
                                     <div class="textBox" style="width: 100%; display: inline-flex;">
                                         <div id="hidden" ondrop="drop(event)" class="divKutu" ondragover="allowDrop(event)"></div>
                                     </div>
-                                </div>
+                                </div>--%>
                             </div>
                             <div class="actions">
                                 <ul>
                                     <li>
-                                        <asp:Button runat="server" ID="sbmt" name="submit" OnClientClick="test()" OnClick="sbmt_Click" Text="Bitir" Style="color: #fff; height: 74px; width: 210px; font-size: 24px; font-weight: 500; cursor: pointer; text-align: center; line-height: 74px; border-radius: 50px; display: inline-block; background-color: #7650e0; border-style: unset;"></asp:Button>
+                                        <asp:Button runat="server" ID="sbmt" name="submit" OnClick="sbmt_Click" Text="Bitir" Style="color: #fff; height: 74px; width: 210px; font-size: 24px; font-weight: 500; cursor: pointer; text-align: center; line-height: 74px; border-radius: 50px; display: inline-block; background-color: #7650e0; border-style: unset;"></asp:Button>
                                     </li>
                                 </ul>
                             </div>
@@ -278,11 +285,11 @@
         </div>
     </div>
     <script>
-        function test() {
-            const divText = document.getElementById("hidden");
+        function clickButton(sa) {
             const lblText = document.getElementById("ContentPlaceHolder1_lblText");
-            lblText.value = divText.innerText;
-            alert("Başarıyla Cevap Verildi");
+            const divText = document.getElementById(sa);
+            divText.classList.add("btnActive");
+            lblText.value = lblText.value + "," + divText.innerText;
         }
     </script>
     <script>

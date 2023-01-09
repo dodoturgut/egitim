@@ -36,16 +36,16 @@ public partial class etkinlik2 : System.Web.UI.Page
                     comm.CommandText = _query;
                     comm.Parameters.AddWithValue("@userId", Session["userId"].ToString());
                     comm.Parameters.AddWithValue("@userName", Session["ogrenci"].ToString());
-                    comm.Parameters.AddWithValue("@kutu1", lblText1.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu2", lblText2.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu3", lblText3.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu4", lblText4.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu5", lblText5.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu6", lblText6.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu7", lblText7.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu8", lblText8.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu9", lblText9.Value.ToString());
-                    comm.Parameters.AddWithValue("@kutu10", lblText10.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu1", hidden1.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu2", hidden2.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu3", hidden3.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu4", hidden4.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu5", hidden5.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu6", hidden6.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu7", hidden7.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu8", hidden8.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu9", hidden9.SelectedItem.Value.ToString());
+                    comm.Parameters.AddWithValue("@kutu10", hidden10.SelectedItem.Value.ToString());
                     try
                     {
                         conn.Open();

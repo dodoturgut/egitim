@@ -27,4 +27,19 @@ public partial class Admin_dashboard_etkinlik1Yanitlar : System.Web.UI.Page
             baglanti.Close();
         }
     }
+    protected void rptAnswers_ItemCommand(object source, RepeaterCommandEventArgs e)
+    {
+        baglanti.Open();
+
+        MySqlCommand verisil = new MySqlCommand("delete from answers1 where userId = '" + e.CommandArgument + "'", baglanti);
+        verisil.ExecuteNonQuery();
+
+        string kayit = "update cevapstats set etkinlik1='false' where ogrenciID = '" + e.CommandArgument + "'";
+        MySqlCommand komut = new MySqlCommand(kayit, baglanti);
+        komut.ExecuteNonQuery();
+
+        baglanti.Close();
+
+        Response.Redirect(Request.RawUrl);
+    }
 }
