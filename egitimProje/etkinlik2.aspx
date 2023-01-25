@@ -266,7 +266,7 @@
                                 <div class="row">
                                     <div class="textBox" style="width: 100%; display: contents;">
                                         <h4>Zencefil ve limon: </h4>
-                                        <h4>Asya ve Hint mutfağında oldukça bilinen bir
+                                        <h4>Zencefil, Asya ve Hint mutfağında bilinen bir 
                                         </h4>
                                         <asp:DropDownList runat="server" ID="hidden1" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
@@ -283,8 +283,7 @@
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>olan zencefil; et 
-yemeklerinde, çorba ve soslarda 
+                                        <h4>Et yemeklerinde, çorba ve soslarda
                                         </h4>
                                         <asp:DropDownList runat="server" ID="hidden2" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
@@ -301,8 +300,7 @@ yemeklerinde, çorba ve soslarda
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>. kullanılır. Zencefil bitkisinin kökünü hem taze 
-tüketebilirsiniz hem de 
+                                        <h4>kullanılır. Zencefil bitkisinin kökünü hem taze tüketebilirsiniz hem de zencefilin kökünü
                                         </h4>
                                         <asp:DropDownList runat="server" ID="hidden3" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
@@ -319,8 +317,7 @@ tüketebilirsiniz hem de
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>tozunu kullanabilirsiniz. İsterseniz zencefilin çayını da 
-demleyebilirsiniz. Günde birkaç kere 
+                                        <h4>Böylece zencefilin çayını da demleyebilirsiniz
                                         </h4>
                                         <asp:DropDownList runat="server" ID="hidden4" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
@@ -337,7 +334,7 @@ demleyebilirsiniz. Günde birkaç kere
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>, yüksek ateş ve 
+                                        <h4>, yüksek ateş ve
                                         </h4>
                                         <asp:DropDownList runat="server" ID="hidden5" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
@@ -354,7 +351,7 @@ demleyebilirsiniz. Günde birkaç kere
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>. ağrısı gibi 
+                                        <h4>ağrısı gibi 
                                         </h4>
                                         <asp:DropDownList runat="server" ID="hidden6" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
@@ -371,8 +368,7 @@ demleyebilirsiniz. Günde birkaç kere
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>. grip 
-hastalığının 
+                                        <h4>grip hastalığının
                                         </h4>
                                         <asp:DropDownList runat="server" ID="hidden7" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
@@ -389,8 +385,7 @@ hastalığının
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>dir/dır. Böyle durumlarda zencefil ve limon ile hazırlayacağınız çay,
-ateşinizi düşürür ve ağrılarınızı azaltır
+                                        <h4>Böyle durumlarda zencefil ve limon ile hazırlayacağınız çay, ateşinizi düşürür ve ağrılarınızı azaltır.
                                         </h4>
                                     </div>
                                 </div>
@@ -400,7 +395,7 @@ ateşinizi düşürür ve ağrılarınızı azaltır
                                 <div class="row">
                                     <div class="textBox" style="width: 100%; display: contents;">
                                         <h4>Siyah turp ve bal: </h4>
-                                        <h4>Siyah turp ve bal, alternatif tıpta </h4>
+                                        <h4>Siyah turp ve bal, alternatif tıpta</h4>
                                         <asp:DropDownList runat="server" ID="hidden8" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
                                             <asp:ListItem>Habercisidir</asp:ListItem>
@@ -416,8 +411,7 @@ ateşinizi düşürür ve ağrılarınızı azaltır
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>sistemi hastalıkları için doğal 
-bir ilaçtır. Kışın siyah turp ile bal tüketmek hastalıklardan kurtarabilir. Özellikle</h4>
+                                        <h4>sistemi hastalıkları için doğal bir ilaçtır. Kışın, siyah turp ile bal tüketmek hastalıklardan kurtarabilir. Özellikle</h4>
                                         <asp:DropDownList runat="server" ID="hidden9" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
                                             <asp:ListItem>Habercisidir</asp:ListItem>
@@ -433,10 +427,7 @@ bir ilaçtır. Kışın siyah turp ile bal tüketmek hastalıklardan kurtarabili
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>karşı
-etkilidir. Ayrıca terlememizi sağlayarak vücudumuzdan toksinleri atmamızı sağlar. Hem de bu 
-doğal ilacı hazırlamak çok kolay! Önce güzelce yıkadığımız turpun tepesini kesin ve küçük bir 
-delik açın. Daha sonra bu </h4>
+                                        <h4>karşı etkilidir. Ayrıca terlememizi sağlayarak vücudumuzdan toksinleri atmamızı sağlar. Hem de bu doğal ilacı hazırlamak çok kolay! Önce güzelce yıkadığımız turpun tepesini kesin ve küçük bir </h4>
                                         <asp:DropDownList runat="server" ID="hidden10" CssClass="form-control divKutu">
                                             <asp:ListItem>Baharattır</asp:ListItem>
                                             <asp:ListItem>Habercisidir</asp:ListItem>
@@ -452,8 +443,7 @@ delik açın. Daha sonra bu </h4>
                                             <asp:ListItem>Boşaltım</asp:ListItem>
                                             <asp:ListItem>Yakabilirsiniz</asp:ListItem>
                                         </asp:DropDownList>
-                                        <h4>bal dökün. 12 saat bekledikten sonra suyunu için. Hepsi bu 
-kadar!</h4>
+                                        <h4>açın. Daha sonra buraya bal dökün. 12 saat bekledikten sonra suyunu için. Hepsi bu kadar!</h4>
                                     </div>
                                 </div>
                             </div>

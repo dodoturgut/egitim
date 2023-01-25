@@ -180,7 +180,7 @@
                             div.style.display = "block";
                         }
                         if (result == "true")
-                            window.location.href = "event5.aspx";
+                            window.location.href = "etkinlik5.aspx";
                     }
                 );
             }
@@ -193,7 +193,7 @@
                             div.style.display = "block";
                         }
                         if (result == "true")
-                            window.location.href = "event6.aspx";
+                            window.location.href = "etkinlik6.aspx";
                     }
                 );
             }

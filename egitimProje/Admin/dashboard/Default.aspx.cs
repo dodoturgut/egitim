@@ -22,7 +22,7 @@ public partial class Admin_dashboard_Default : System.Web.UI.Page
         using (MySqlConnection baglanti = new MySqlConnection("Server=localhost;Database=u1019084_db407;Uid=u1019084_user407;Pwd=s@iCQ1vH3:5-3.Oe;"))
         {
             baglanti.Open();
-            MySqlCommand komut = new MySqlCommand("SELECT * FROM egitim LIMIT 5", baglanti);
+            MySqlCommand komut = new MySqlCommand("SELECT * FROM egitim ORDER BY id DESC LIMIT 5", baglanti);
             rptOgrenciler.DataSource = komut.ExecuteReader();
             rptOgrenciler.DataBind();
             baglanti.Close();

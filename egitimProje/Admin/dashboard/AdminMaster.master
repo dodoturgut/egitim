@@ -115,6 +115,8 @@
                                     <li><a class="dropdown-item" href="etkinlik2Yanitlar.aspx">Etkinlik2</a></li>
                                     <li><a class="dropdown-item" href="etkinlik3Yanitlar.aspx">Etkinlik3</a></li>
                                     <li><a class="dropdown-item" href="etkinlik4Yanitlar.aspx">Etkinlik4</a></li>
+                                    <li><a class="dropdown-item" href="etkinlik5Yanitlar.aspx">Etkinlik5</a></li>
+                                    <li><a class="dropdown-item" href="etkinlik6Yanitlar.aspx">Etkinlik6</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item theme-scheme-dropdown">
